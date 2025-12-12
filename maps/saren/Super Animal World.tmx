@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="138">
+ <properties>
+  <property name="include" value="Map:Common"/>
+ </properties>
+ <imagelayer id="3" name="Map">
+  <image source="Images/Map.png" width="2048" height="2048"/>
+  <properties>
+   <property name="include" value="Map:Common"/>
+  </properties>
+ </imagelayer>
+ <objectgroup id="4" name="npcs"/>
+ <objectgroup id="6" name="superiteshard">
+  <object id="17" x="378.333" y="1638.33">
+   <point/>
+  </object>
+  <object id="18" x="170.333" y="1647.67">
+   <properties>
+    <property name="description" value="In the kitchen of Meet-Eat"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" x="107" y="1303.67">
+   <properties>
+    <property name="description" value="Inside a blue house on the west coast"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" x="171.667" y="1037.33">
+   <properties>
+    <property name="description" value="On the edge of the coast in shallow water"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" x="229.667" y="552.667">
+   <properties>
+    <property name="description" value="Inside a beige tent next to a red tent"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" x="817.333" y="180">
+   <point/>
+  </object>
+  <object id="23" x="1112" y="193.667">
+   <point/>
+  </object>
+  <object id="24" x="1285" y="142">
+   <point/>
+  </object>
+  <object id="25" x="1737.33" y="165.667">
+   <point/>
+  </object>
+  <object id="26" x="1907" y="399.333">
+   <point/>
+  </object>
+  <object id="27" x="1936.67" y="1444.33">
+   <point/>
+  </object>
+  <object id="28" x="1892.33" y="1678.33">
+   <point/>
+  </object>
+  <object id="29" x="1325.33" y="1804.33">
+   <point/>
+  </object>
+  <object id="30" x="1238" y="1389">
+   <point/>
+  </object>
+  <object id="31" x="1153.33" y="1433.33">
+   <point/>
+  </object>
+  <object id="32" x="657.75" y="1216">
+   <point/>
+  </object>
+  <object id="33" x="855" y="1372.25">
+   <point/>
+  </object>
+  <object id="34" x="847" y="1582.5">
+   <point/>
+  </object>
+  <object id="35" x="1597" y="1238">
+   <point/>
+  </object>
+  <object id="36" x="1623" y="1148">
+   <point/>
+  </object>
+  <object id="37" x="1405.25" y="906">
+   <point/>
+  </object>
+  <object id="38" x="1412" y="533">
+   <point/>
+  </object>
+  <object id="39" x="1374.5" y="622">
+   <point/>
+  </object>
+  <object id="40" x="431" y="640.25">
+   <point/>
+  </object>
+  <object id="41" x="389.5" y="367">
+   <point/>
+  </object>
+  <object id="42" x="617.333" y="383.333">
+   <point/>
+  </object>
+  <object id="59" x="318.75" y="848">
+   <point/>
+  </object>
+  <object id="73" x="1400.73" y="371.818">
+   <point/>
+  </object>
+  <object id="74" x="774.25" y="1796.25">
+   <point/>
+  </object>
+  <object id="75" x="837.375" y="937.5">
+   <point/>
+  </object>
+  <object id="76" x="966" y="567.333">
+   <point/>
+  </object>
+  <object id="77" x="1573.67" y="1962.67">
+   <point/>
+  </object>
+  <object id="78" x="535" y="191.5">
+   <point/>
+  </object>
+  <object id="79" x="161" y="1796.25">
+   <point/>
+  </object>
+  <object id="80" x="203.25" y="1770.25">
+   <properties>
+    <property name="description" value="Kitchen of Slow Food"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="81" x="324" y="1307.75">
+   <point/>
+  </object>
+  <object id="82" x="655.25" y="1120.63">
+   <point/>
+  </object>
+  <object id="83" x="903" y="1091.33">
+   <point/>
+  </object>
+  <object id="84" x="1408.67" y="1584">
+   <point/>
+  </object>
+  <object id="85" x="1628" y="1635.33">
+   <point/>
+  </object>
+  <object id="86" x="1023.5" y="1197.25">
+   <point/>
+  </object>
+  <object id="88" x="604.333" y="645.667">
+   <point/>
+  </object>
+  <object id="89" x="568.333" y="785.667">
+   <point/>
+  </object>
+  <object id="90" x="528" y="501.333">
+   <point/>
+  </object>
+  <object id="91" x="430.667" y="86.6667">
+   <point/>
+  </object>
+  <object id="92" x="904.667" y="301.333">
+   <point/>
+  </object>
+  <object id="93" x="1744.67" y="800">
+   <point/>
+  </object>
+  <object id="94" x="1768.67" y="1026">
+   <point/>
+  </object>
+  <object id="95" x="1889.33" y="1094">
+   <point/>
+  </object>
+  <object id="96" x="1939.33" y="1926">
+   <point/>
+  </object>
+  <object id="97" x="1208" y="2029.33">
+   <point/>
+  </object>
+  <object id="98" x="1126" y="1948.67">
+   <point/>
+  </object>
+  <object id="99" x="745.333" y="2000">
+   <point/>
+  </object>
+  <object id="100" x="901.333" y="1716">
+   <point/>
+  </object>
+  <object id="101" x="504.667" y="1080.67">
+   <point/>
+  </object>
+  <object id="102" x="343.333" y="1921.33">
+   <point/>
+  </object>
+  <object id="103" x="656.667" y="1447.67">
+   <point/>
+  </object>
+  <object id="104" x="1220" y="1210">
+   <point/>
+  </object>
+  <object id="105" x="1121.5" y="973.5">
+   <point/>
+  </object>
+  <object id="106" x="1261.5" y="703.5">
+   <point/>
+  </object>
+  <object id="107" x="1115.5" y="700.5">
+   <point/>
+  </object>
+  <object id="108" x="1729" y="479">
+   <point/>
+  </object>
+  <object id="109" x="1613.5" y="560">
+   <point/>
+  </object>
+  <object id="110" x="408" y="1182.67">
+   <point/>
+  </object>
+  <object id="111" x="228.667" y="235">
+   <point/>
+  </object>
+  <object id="112" x="1328" y="1487">
+   <point/>
+  </object>
+  <object id="113" x="1484.5" y="825.5">
+   <point/>
+  </object>
+  <object id="114" x="276" y="1593">
+   <point/>
+  </object>
+  <object id="115" x="456.5" y="1566">
+   <point/>
+  </object>
+  <object id="116" x="667.5" y="526.5">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="ziplines">
+  <object id="117" name="Permanent Zipline" x="687" y="993.333">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 9.66667,40"/>
+  </object>
+  <object id="118" name="Permanent Zipline" x="1132.5" y="1821.75">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -8.25,31"/>
+  </object>
+  <object id="119" name="Permanent Zipline" x="1026.25" y="1890.25">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -12.5,32.5"/>
+  </object>
+  <object id="120" name="Permanent Zipline" x="817.5" y="1958.5">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -4.25,-42.75"/>
+  </object>
+  <object id="121" name="Permanent Zipline" x="418.75" y="561">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -21,93.5"/>
+  </object>
+  <object id="122" name="Permanent Zipline" x="1914.5" y="957.75">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -26.5,-43.25"/>
+  </object>
+  <object id="123" name="Permanent Zipline" x="1845" y="1708.75">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -5.75,31.75"/>
+  </object>
+  <object id="124" name="Permanent Zipline" x="1948.75" y="1738">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -27,73.75"/>
+  </object>
+  <object id="126" name="Permanent Zipline" x="588.182" y="1358">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -39.4545,20.1818"/>
+  </object>
+  <object id="127" name="Permanent Zipline" x="1286" y="177.25">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -2.25,26.75"/>
+  </object>
+  <object id="128" name="Permanent Zipline" x="1178.5" y="191.25">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -29.5,-2.25"/>
+  </object>
+  <object id="129" name="Permanent Zipline" x="530.909" y="163.273">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -52.7273,0.545455"/>
+  </object>
+  <object id="130" name="Permanent Zipline" x="529.455" y="1692.55">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 28,0"/>
+  </object>
+  <object id="131" name="Permanent Zipline" x="1032" y="1637.75">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 31.25,13.5"/>
+  </object>
+  <object id="132" name="Permanent Zipline" x="867.5" y="1656.25">
+   <properties>
+    <property name="color" type="color" value="#ff0eff01"/>
+    <property name="thickness" type="int" value="4"/>
+   </properties>
+   <polyline points="0,0 -53.5,0.75"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="photobooth">
+  <object id="133" x="355.091" y="1759.64">
+   <point/>
+  </object>
+  <object id="134" x="1190.67" y="1186">
+   <point/>
+  </object>
+  <object id="135" x="1889.5" y="1905.75">
+   <point/>
+  </object>
+  <object id="136" x="924" y="286">
+   <point/>
+  </object>
+  <object id="137" x="1057.75" y="2006">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="mtnstation">
+  <object id="60" name="End-of-the-World Station" x="1861" y="273">
+   <point/>
+  </object>
+  <object id="61" name="Mini Station" x="1393" y="1379">
+   <point/>
+  </object>
+  <object id="62" name="Lab Lab Station" x="1173" y="618">
+   <point/>
+  </object>
+  <object id="63" name="Superite Station" x="456" y="539">
+   <point/>
+  </object>
+  <object id="64" name="Welcome Station" x="272" y="1668">
+   <point/>
+  </object>
+  <object id="65" name="Victory Station" x="1067" y="1980">
+   <point/>
+  </object>
+  <object id="66" name="Sea Land Station" x="1880" y="1911">
+   <point/>
+  </object>
+  <object id="67" name="Bamboo Station" x="1180" y="1188">
+   <point/>
+  </object>
+  <object id="68" name="Pixile Port Station" x="1822" y="1247">
+   <point/>
+  </object>
+  <object id="69" name="Penguin Station" x="963" y="308">
+   <point/>
+  </object>
+  <object id="70" name="Emu Station" x="796" y="909">
+   <point/>
+  </object>
+  <object id="71" name="Murre Station " x="273" y="1071">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="dogna">
+  <object id="43" x="915.333" y="1980.33">
+   <properties>
+    <property name="description" value="Dr. Dogna is inside the lab on Victory Island"/>
+    <property name="page" value="Dr. Dogna"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>

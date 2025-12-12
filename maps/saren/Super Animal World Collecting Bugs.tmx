@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="79">
+ <properties>
+  <property name="include" value="Map:Common"/>
+ </properties>
+ <imagelayer id="3" name="Map">
+  <image source="MapSAW.png" width="2048" height="2048"/>
+ </imagelayer>
+ <objectgroup color="#aaffff" id="5" name="Bug Biomes" tintcolor="#aaaaff">
+  <object id="1" name="Swamp" x="1024" y="1452">
+   <properties>
+    <property name="color" value="#0bb37f"/>
+   </properties>
+   <polygon points="0,0 -71,-35 -132,-12 -236,-12 -273,-17 -303,77 -316,140 -203,140 -208,195 -237,213 -204,260 -129,302 -65,316 51,315 37,274 50,214 82,215 107,137 91,93 51,60"/>
+  </object>
+  <object id="2" name="Redwood" x="478" y="1049">
+   <polygon points="0,0 -87,-8 -166,-25 -240,0 -282,24 -290,101 -274,177 -21,178 -22,106 -29,72"/>
+  </object>
+  <object id="3" name="Beach" x="143" y="1603">
+   <polygon points="0,0 27,-9 9,-241 -13,-254 0,-321 55,-400 43,-459 51,-528 115,-568 180,-580 230,-567 233,-595 126,-603 29,-576 -9,-475 3,-375 -62,-328 -82,-261 -70,-223 -26,-200 -13,-77"/>
+  </object>
+  <object id="4" name="Beach" x="203" y="929">
+   <polygon points="0,0 101,-155 100,-258 1,-247 58,-211 55,-172 6,-84 -17,-53"/>
+  </object>
+  <object id="6" name="Desert" x="849.333" y="712">
+   <polygon points="0,0 -402.667,20 -546.667,70.6667 -645.333,222.667 -518.667,256 -402.667,249.333 -258.667,281.333 -117.333,274.667 -77.3333,262.667 132,261.333 176,142.667"/>
+  </object>
+  <object id="7" name="Cave" x="566.667" y="482.667">
+   <polygon points="0,0 -120,8 -141.333,97.3333 -126.667,174.667 190.667,192 189.333,25.3333"/>
+  </object>
+  <object id="8" name="Frozen" x="142.667" y="514.667">
+   <polygon points="0,0 66.6667,21.3333 196,0 300,-5.33333 305.333,-33.3333 506.667,-33.3333 632,-6.66667 672,-318.667 374.667,-256 369.333,-217.333 261.333,-212 272,-437.333 212,-436 161.333,-329.333 49.3333,-256 49.3333,-201.333 102.667,-189.333 70.6667,-66.6667"/>
+  </object>
+  <object id="9" name="Frozen" x="1894.67" y="217.333">
+   <polygon points="0,0 5.33333,82.6667 -233.333,76 -288,236 -510.667,236 -692,296 -1088,302.667 -1080,252 -762.667,249.333 -768,-38.6667 -602.667,-94.6667 -600,52 -504,62.6667 -436,-84 -338.667,-88 -332,-32 -284,-33.3333 -226.667,-65.3333"/>
+  </object>
+  <object id="10" name="Cave" x="1684" y="356">
+   <polygon points="0,0 -5.33333,121.333 45.3333,145.333 90.6667,-4"/>
+  </object>
+  <object id="11" name="Cave" x="941.333" y="541.333">
+   <polygon points="0,0 70.6667,-1.33333 74.6667,60 -1.33333,60"/>
+  </object>
+  <object id="12" name="Forest" x="708" y="1477">
+   <polygon points="0,0 0,53 -197,55 -190,267 -238,271 -251,129 -427,54 -426,31 -535,36 -557,-149 -482,-250 -205,-243 -190,-172 -233,-100 -237,-6"/>
+  </object>
+  <object id="13" name="Superite" x="577.333" y="1644">
+   <polygon points="0,0 -0.666667,64.3333 53,14.6667 51.3333,-3.66667"/>
+  </object>
+  <object id="14" name="Forest" x="1737.33" y="511.333">
+   <polygon points="0,0 50,14.6667 83.3333,2 116,-112 145.333,-114 147.333,-149.333 127.333,-154.667 133.333,-192 154.667,-191.333 158.667,-208 -69.3333,-214 -66,-150.667 -100.667,-129.333 -122,-54 -211.333,-48.6667 -211.333,-19.3333 -152,-14.6667 -97.3333,-22.6667 -62,-14.6667 -56,-162 42,-162.667"/>
+  </object>
+  <object id="15" name="Forest" x="1628" y="643">
+   <polygon points="0,0 -42,19 -38,84 22,98 23,306 126,306 153,274 194,254 188,216 156,201 137,52 165,27 159,2"/>
+  </object>
+  <object id="16" name="Forest" x="1253" y="785" width="149" height="70"/>
+  <object id="44" name="Forest" x="1394" y="772">
+   <polygon points="0,0 62,24 68,-54 158,-44 158,-133 76,-181 97,-252 140,-259 122,-312 -7,-304 -120,-274 -196,-251 -369,-254 -354,-168 -225,-185 -132,-195 0,-179"/>
+  </object>
+  <object id="45" name="Forest" x="933" y="542">
+   <polygon points="0,0 -106,3 -112,164 -80,163 97,313 51,439 7,443 7,749 118,748 103,477 187,416 256,417 317,498 322,605 307,632 297,748 483,748 485,575 692,559 695,471 453,445 455,340 247,336 257,247 118,246 119,68 3,68"/>
+  </object>
+  <object id="46" name="Forest" x="1515" y="879" width="111" height="93"/>
+  <object id="47" name="Forest" x="1531" y="1313" width="176" height="202"/>
+  <object id="48" name="Forest" x="1782" y="1355">
+   <polygon points="0,0 44,2 45,78 89,105 60,163 61,190 26,201 32,293 -130,306 -157,439 -360,437 -335,383 -222,377 -221,316 -464,290 -561,353 -564,411 -701,409 -696,316 -669,314 -644,232 -509,226 -423,165 -418,76 -270,83"/>
+  </object>
+  <object id="49" name="Farm" x="1505" y="1319">
+   <polygon points="0,0 1,109 -145,108 -151,192 -234,258 -366,264 -385,223 -477,126 -430,84 -431,-4"/>
+  </object>
+  <object id="50" name="Beach" x="1904" y="401">
+   <polygon points="0,0 -46,1 -79,121 -119,132 -109,268 -136,302 -117,441 -85,459 -77,501 -148,550 -112,555 -19,508 -23,463 -89,423 -96,320 -60,208 -32,193 -50,103"/>
+  </object>
+  <object id="51" name="Beach" x="1816" y="1558" width="106" height="95"/>
+  <object id="52" name="Beach" x="1787" y="1749" width="156" height="67"/>
+  <object id="53" name="Beach" x="1926" y="1905">
+   <polygon points="0,0 30,7 9,64 -223,64 -306,-43 -491,-33 -694,-55 -732,-91 -1010,-78 -1054,12 -1069,-44 -1061,-125 -840,-134 -708,-130 -505,-104 -311,-93 -229,-6 -221,37 0,40"/>
+  </object>
+  <object id="54" name="Beach" x="864" y="1906">
+   <polygon points="0,0 -126,12 -242,18 -242,45 1,19"/>
+  </object>
+  <object id="55" name="Beach" x="592" y="1705">
+   <polygon points="0,0 21,44 -11,88 -69,98 -68,25"/>
+  </object>
+  <object id="56" name="Beach" x="614" y="1317">
+   <polygon points="0,0 -54,-1 48,93 83,58"/>
+  </object>
+  <object id="57" name="Forest" x="769" y="1044">
+   <polygon points="0,0 -12,127 -14,248 -76,275 -21,389 119,392 198,360 235,298 165,273 142,-9"/>
+  </object>
+  <object id="58" name="Forest" x="641.333" y="1646">
+   <polygon points="0,0 -45.3333,53.3333 -26,93.3333 44,48.6667 37.3333,-13.3333"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="superiteshard">
+  <object id="17" x="378.333" y="1638.33">
+   <point/>
+  </object>
+  <object id="18" x="170.333" y="1647.67">
+   <properties>
+    <property name="description" value="In the kitchen of Meet-Eat"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" x="96.3333" y="1303.67">
+   <point/>
+  </object>
+  <object id="20" x="171.667" y="1037.33">
+   <point/>
+  </object>
+  <object id="21" x="229.667" y="552.667">
+   <point/>
+  </object>
+  <object id="22" x="817.333" y="180">
+   <point/>
+  </object>
+  <object id="23" x="1112" y="193.667">
+   <point/>
+  </object>
+  <object id="24" x="1285" y="142">
+   <point/>
+  </object>
+  <object id="25" x="1737.33" y="165.667">
+   <point/>
+  </object>
+  <object id="26" x="1907" y="399.333">
+   <point/>
+  </object>
+  <object id="27" x="1936.67" y="1444.33">
+   <point/>
+  </object>
+  <object id="28" x="1892.33" y="1678.33">
+   <point/>
+  </object>
+  <object id="29" x="1325.33" y="1804.33">
+   <point/>
+  </object>
+  <object id="30" x="1238" y="1389">
+   <point/>
+  </object>
+  <object id="31" x="1153.33" y="1433.33">
+   <point/>
+  </object>
+  <object id="32" x="657.75" y="1216">
+   <point/>
+  </object>
+  <object id="33" x="855" y="1372.25">
+   <point/>
+  </object>
+  <object id="34" x="847" y="1582.5">
+   <point/>
+  </object>
+  <object id="35" x="1597" y="1238">
+   <point/>
+  </object>
+  <object id="36" x="1623" y="1148">
+   <point/>
+  </object>
+  <object id="37" x="1405.25" y="906">
+   <point/>
+  </object>
+  <object id="38" x="1412" y="533">
+   <point/>
+  </object>
+  <object id="39" x="1374.5" y="622">
+   <point/>
+  </object>
+  <object id="40" x="431" y="640.25">
+   <point/>
+  </object>
+  <object id="41" x="389.5" y="367">
+   <point/>
+  </object>
+  <object id="42" x="617.333" y="383.333">
+   <point/>
+  </object>
+  <object id="59" x="318.75" y="848">
+   <point/>
+  </object>
+  <object id="73" x="1400.73" y="371.818">
+   <point/>
+  </object>
+  <object id="74" x="774.25" y="1796.25">
+   <point/>
+  </object>
+  <object id="75" x="837.375" y="937.5">
+   <point/>
+  </object>
+  <object id="76" x="966" y="567.333">
+   <point/>
+  </object>
+  <object id="77" x="1573.67" y="1962.67">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="mtnstation">
+  <object id="60" name="End-of-the-World Station" x="1861" y="273">
+   <point/>
+  </object>
+  <object id="61" name="Mini Station" x="1393" y="1379">
+   <point/>
+  </object>
+  <object id="62" name="Lab Lab Station" x="1173" y="618">
+   <point/>
+  </object>
+  <object id="63" name="Superite Station" x="456" y="539">
+   <point/>
+  </object>
+  <object id="64" name="Welcome Station" x="272" y="1668">
+   <point/>
+  </object>
+  <object id="65" name="Victory Station" x="1067" y="1980">
+   <point/>
+  </object>
+  <object id="66" name="Sea Land Station" x="1880" y="1911">
+   <point/>
+  </object>
+  <object id="67" name="Bamboo Station" x="1180" y="1188">
+   <point/>
+  </object>
+  <object id="68" name="Pixile Port Station" x="1822" y="1247">
+   <point/>
+  </object>
+  <object id="69" name="Penguin Station" x="963" y="308">
+   <point/>
+  </object>
+  <object id="70" name="Emu Station" x="796" y="909">
+   <point/>
+  </object>
+  <object id="71" name="Murre Station " x="273" y="1071">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,12 +1,7 @@
-import { APIError, edit, getLoggedInUser } from './api.mjs';
-import {
-    generateCodeChallenge,
-    generateOAuthUrl,
-    getAccessToken
-} from './auth.mjs';
-import { convertMap } from './format.mjs';
-import { getDefaultLanguageIndex, getLanguageNames, selectLanguage } from './language.mjs';
-import { getStoredToken, storeToken } from './session.mjs';
+import { edit, getLoggedInUser } from "./api.mjs";
+import { generateCodeChallenge, generateOAuthUrl, getAccessToken } from "./auth.mjs";
+import { convertMap } from "./format.mjs";
+import { getStringProperty } from "./util.mjs";
 
 /**
  * Opens a URL in the user's default web browser.
@@ -50,18 +45,17 @@ If that does not work for you, you can also copy the URL from the console instea
  * @returns {Promise<[string, string]>} Selected language code
  */
 function getEditInfo() {
+    const languagesStr = getStringProperty(tiled.project, 'languages') || 'en';
+    const languages = languagesStr.split(',').map(lang => lang.trim());
     const dialog = new Dialog('Publishing map to the wiki');
     dialog.minimumWidth = 600;
-    const languageNames = getLanguageNames();
-    const languageSelect = dialog.addComboBox('Wiki language:', languageNames);
-    languageSelect.currentIndex = getDefaultLanguageIndex();
-    languageSelect.visible = languageNames.length > 1;
+    const languageSelect = dialog.addComboBox('Wiki language:', languages);
     dialog.addNewRow();
     const summary = dialog.addTextInput('Edit summary:', 'Published with Tiled DataMaps extension');
     dialog.addNewRow();
     return new Promise((resolve, reject) => {
         dialog.addButton('OK').clicked.connect(() => {
-            resolve([selectLanguage(languageSelect.currentIndex), summary.text]);
+            resolve([languages[languageSelect.currentIndex], summary.text]);
             dialog.done(Dialog.Accepted);
         });
         dialog.addButton('Cancel').clicked.connect(() => {
@@ -95,6 +89,10 @@ function performLogin(language) {
     }
 }
 
+function performLogin(language) {
+    
+}
+
 /**
  * Gets the user's access token from storage, or performs login if not available
  * or invalid.
@@ -102,6 +100,7 @@ function performLogin(language) {
  * @returns {Promise<string>} Access token for the user
  */
 function getToken(language) {
+    return 
     const accessToken = getStoredToken();
     if (accessToken) {
         return getLoggedInUser(accessToken, language).then(currentUser => {
@@ -129,47 +128,15 @@ function getToken(language) {
 function publishMap(accessToken, summary, map, language) {
     const mapName = FileInfo.completeBaseName(FileInfo.fileName(map.fileName));
     const datamap = convertMap(map, mapName, language);
-    return edit(
-        `Map:${datamap.custom?.mapName}`,
-        JSON.stringify(datamap),
-        summary,
-        accessToken,
-        language
-    );
-}
-
-/**
- * Handles errors that occur during publishing of the map to the wiki.
- * @param {any} error Error returned during publishing
- */
-function handlePublishError(error) {
-    if (error === true) {
-        // User cancelled the operation.
-        return;
-    }
-    if (error instanceof APIError) {
-        if (error.code === 'datamap-validate-constraint-requiredfile') {
-            const regex = /\[\S+ ([^\]]+)\]/g;
-            const files = [];
-            while (true) {
-                const match = regex.exec(error.info);
-                if (!match) {
-                    break;
-                }
-                files.push(match[1]);
-            }
-            tiled.alert(`The following files are missing from the wiki: ${files.join(', ')}. Please upload them and try publishing again.`);
-            return;
-        }
-        if (error.code === 'datamap-validate-constraint-groupexists') {
-            tiled.alert(`${error.info}\n\nDid you forget to add the "include" property to the map? Click Map > Map Properties, then add a "include" custom property with the type string, and put "Map:Common Data" as the value. If the map fragment defining marker groups is called differently on your wiki, change "Common Data" to whatever it is called.`);
-            return;
-        }
-        tiled.alert(`Failed to publish! API returned error: ${error.info} (code: ${error.code})`);
-        return;
-    }
-    tiled.alert('Failed to publish! Please check the console for details.');
-    tiled.log(`Error details: ${error.message || error}`);
+    tiled.log(JSON.stringify(datamap));
+    return JSON.stringify(datamap);
+    // return edit(
+    //     `Map:${datamap.custom?.mapName}`,
+    //     JSON.stringify(datamap),
+    //     summary,
+    //     accessToken,
+    //     language
+    // );
 }
 
 /**
@@ -180,12 +147,19 @@ export default function run() {
         tiled.alert('Please open the map you want to publish first.');
         return;
     }
-    const map = /** @type {TileMap} */ (tiled.activeAsset);
+    const /** @type {TileMap} */ map = tiled.activeAsset;
     getEditInfo()
-        .then(([language, summary]) =>
-            getToken(language).then(token => [language, summary, token]))
+        //.then(([language, summary]) =>
+            // getToken(language).then(token => [language, summary, token]))
         .then(([language, summary, token]) =>
             publishMap(token, summary, map, language))
-        .then(() => tiled.alert(`Map published successfully!`))
-        .catch(handlePublishError);
+        // .then(([output]) => tiled.alert(output))
+        .catch(error => {
+            if (error === true) {
+                // User cancelled the operation.
+                return;
+            }
+            tiled.alert('Failed to publish! Please check the console for details.');
+            tiled.log(`Error details: ${error.message || error}`)
+        });
 }

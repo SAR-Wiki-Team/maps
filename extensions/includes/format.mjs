@@ -165,7 +165,7 @@ function convertLayer(layer, datamap, convertedLayers, language) {
  */
 export function convertMap(map, mapName, language = 'en') {
     const /** @type {DataMap} */ datamap = {
-        $schema: '/extensions/DataMaps/schemas/v17.3.json',
+        $schema: 'https://wiki.animalroyale.com/1.44/extensions/DataMaps/schemas/v17.4.json',
         backgrounds: [{
             name: '<default>',
             tileSize: [map.tileWidth, map.tileHeight],

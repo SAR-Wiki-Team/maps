@@ -1,5 +1,7 @@
 # tiled-datamaps
 
+This repository is a fork created for Super Animal Royale wiki purposes, the original repository which you should look at is at https://github.com/utdrwiki/maps. 
+
 [Tiled](https://mapeditor.org/) extension to allow converting Tiled maps into
 maps recognized by the [DataMaps](https://support.wiki.gg/wiki/DataMaps)
 MediaWiki extension, to the best of its ability. Currently in use on
@@ -11,8 +13,7 @@ MediaWiki extension, to the best of its ability. Currently in use on
 ### Prerequisites
 
 On the wiki that you are editing, you need to have the
-[DataMaps](https://www.mediawiki.org/wiki/Extension:DataMaps) and
-[OAuth](https://www.mediawiki.org/wiki/Extension:OAuth) extensions installed.
+[DataMaps](https://www.mediawiki.org/wiki/Extension:DataMaps) extension installed.
 
 If cloning using Git, you need Git LFS installed in order to pull the map
 images.
@@ -71,6 +72,7 @@ in Tiled:
     - `page` (string): Where should the "Read more" link lead
     - `plain` (boolean): Whether the description should *not* be interpreted as
       wikitext
+    - `image` (string): Image associated with marker
     - `multiline` (boolean): Wraps the description in a `<poem>`, to allow
       newlines to directly map to newlines in the rendered wikitext.
 - Custom rectangle properties:
@@ -82,12 +84,12 @@ in Tiled:
 
 ### Conversion
 
-To convert the map, use File > Publish to wiki or use the keybind Ctrl+Shift+U.
-It will prompt you to log in for the first time, and after every hour of using
-the editor. Follow the prompts to log in.
+To convert the map, use File > Publish to wiki. Map JSON contents will he printed to the console. From there I recommend to copy it into https://gchq.github.io/CyberChef/#recipe=JSON_Beautify('%20%20%20%20',false,true), make it nice and put it as map file.
 
 ## License
 
 Licensed under the MIT license. The file under `extensions/wiki.svg` is borrowed
 from [Wikipedia](https://en.wikipedia.org/wiki/File:Wiki_letter_w.svg) and
 licensed under GFDL and CC-BY-SA 3.0.
+
+Map asset taken from Super Animal Royale and belongs to Pixile Studios.
