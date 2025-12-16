@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="138">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="180">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
  <imagelayer id="12" name="Map_Indoors">
-  <image source="Images/Map_Indoors.png" width="2048" height="2048"/>
+  <image source="Images/Map_Indoors.png"/>
  </imagelayer>
  <imagelayer id="3" name="Map">
   <image source="Images/Map.png" width="2048" height="2048"/>
@@ -13,234 +13,442 @@
   </properties>
  </imagelayer>
  <objectgroup id="4" name="npcs"/>
- <objectgroup id="6" name="superiteshard">
-  <object id="17" x="378.333" y="1638.33">
-   <point/>
-  </object>
-  <object id="18" x="170.333" y="1647.67">
+ <objectgroup id="6" name="superiteshard" visible="0">
+  <object id="17" name="Privacy" x="371.768" y="1636.11">
    <properties>
-    <property name="description" value="In the kitchen of Meet-Eat"/>
+    <property name="image" value="Superite_Shard_Privacy.jpg"/>
    </properties>
    <point/>
   </object>
-  <object id="19" x="107" y="1303.67">
+  <object id="18" name="Meat n' Eat" x="170.333" y="1647.67">
+   <properties>
+    <property name="description" value="In the kitchen of the Meat-n'-Eat"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="Blue Hut" x="96.8125" y="1305.61">
    <properties>
     <property name="description" value="Inside a blue house on the west coast"/>
+    <property name="image" value="Superite_Shard_Blue_Hut.jpg"/>
    </properties>
    <point/>
   </object>
-  <object id="20" x="171.667" y="1037.33">
+  <object id="20" name="Shore West" x="171.667" y="1037.33">
    <properties>
     <property name="description" value="On the edge of the coast in shallow water"/>
+    <property name="image" value="Superite_Shard_Shore_West.jpg"/>
    </properties>
    <point/>
   </object>
-  <object id="21" x="229.667" y="552.667">
+  <object id="21" name="Minecraft Biomes" x="229.667" y="552.667">
    <properties>
     <property name="description" value="Inside a beige tent next to a red tent"/>
+    <property name="image" value="Superite_Shard_Minecraft_Biomes.jpg"/>
    </properties>
    <point/>
   </object>
-  <object id="22" x="817.333" y="180">
-   <point/>
-  </object>
-  <object id="23" x="1112" y="193.667">
-   <point/>
-  </object>
-  <object id="24" x="1285" y="142">
-   <point/>
-  </object>
-  <object id="25" x="1737.33" y="165.667">
-   <point/>
-  </object>
-  <object id="26" x="1907" y="399.333">
-   <point/>
-  </object>
-  <object id="27" x="1936.67" y="1444.33">
-   <point/>
-  </object>
-  <object id="28" x="1892.33" y="1678.33">
-   <point/>
-  </object>
-  <object id="29" x="1325.33" y="1804.33">
-   <point/>
-  </object>
-  <object id="30" x="1238" y="1389">
-   <point/>
-  </object>
-  <object id="31" x="1153.33" y="1433.33">
-   <point/>
-  </object>
-  <object id="32" x="657.75" y="1216">
-   <point/>
-  </object>
-  <object id="33" x="855" y="1372.25">
-   <point/>
-  </object>
-  <object id="34" x="847" y="1582.5">
-   <point/>
-  </object>
-  <object id="35" x="1597" y="1238">
-   <point/>
-  </object>
-  <object id="36" x="1623" y="1148">
-   <point/>
-  </object>
-  <object id="37" x="1405.25" y="906">
-   <point/>
-  </object>
-  <object id="38" x="1412" y="533">
-   <point/>
-  </object>
-  <object id="39" x="1374.5" y="622">
-   <point/>
-  </object>
-  <object id="40" x="431" y="640.25">
-   <point/>
-  </object>
-  <object id="41" x="389.5" y="367">
-   <point/>
-  </object>
-  <object id="42" x="617.333" y="383.333">
-   <point/>
-  </object>
-  <object id="59" x="318.75" y="848">
-   <point/>
-  </object>
-  <object id="73" x="1400.73" y="371.818">
-   <point/>
-  </object>
-  <object id="74" x="774.25" y="1796.25">
-   <point/>
-  </object>
-  <object id="75" x="837.375" y="937.5">
-   <point/>
-  </object>
-  <object id="76" x="966" y="567.333">
-   <point/>
-  </object>
-  <object id="77" x="1573.67" y="1962.67">
-   <point/>
-  </object>
-  <object id="78" x="535" y="191.5">
-   <point/>
-  </object>
-  <object id="79" x="161" y="1796.25">
-   <point/>
-  </object>
-  <object id="80" x="203.25" y="1770.25">
+  <object id="22" name="Palace Left Outside" x="817.333" y="180">
    <properties>
-    <property name="description" value="Kitchen of Slow Food"/>
+    <property name="description" value="This one is OUTSIDE the palace, do not look inside."/>
+    <property name="image" value="Superite_Shard_Palace_Left_Outside.jpg"/>
    </properties>
    <point/>
   </object>
-  <object id="81" x="324" y="1307.75">
+  <object id="23" name="Palace Right Inside" x="1112" y="193.667">
+   <properties>
+    <property name="image" value="Superite_Shard_Palace_Right_Inside.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="82" x="655.25" y="1120.63">
+  <object id="24" name="Tippy Zipline" x="1285" y="142">
+   <properties>
+    <property name="description" value="... Yeah I admit this name isn't the greatest; it's the &quot;Tippy Top Next to the zipline&quot; but I challenged myself to write as many of these as I could in 2 words or less. I think I did a good job"/>
+    <property name="image" value="Superite_Shard_Tippy_Zipline.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="83" x="903" y="1091.33">
+  <object id="25" name="Tundra Tent" x="1737.33" y="165.667">
+   <properties>
+    <property name="image" value="Superite_Shard_Tundra_Tent.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="84" x="1408.67" y="1584">
+  <object id="26" name="East Edge" x="1907" y="399.333">
+   <properties>
+    <property name="image" value="Superite_Shard_East_Edge.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="85" x="1628" y="1635.33">
+  <object id="27" name="Lighthouse" x="1936.67" y="1444.33">
+   <properties>
+    <property name="image" value="Superite_Shard_Lighthouse.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="86" x="1023.5" y="1197.25">
+  <object id="28" name="Sushi" x="1890.95" y="1667.95">
+   <properties>
+    <property name="description" value="Behind the wooden Lattice"/>
+    <property name="image" value="Superite_Shard_Sushi.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="88" x="604.333" y="645.667">
+  <object id="29" name="Safety First" x="1325.33" y="1804.33">
+   <properties>
+    <property name="image" value="Superite_Shard_Safety_First.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="89" x="568.333" y="785.667">
+  <object id="30" name="Storytime With Donk" x="1238" y="1389">
+   <properties>
+    <property name="image" value="Superite_Shard_Storytime_With_Donk"/>
+   </properties>
    <point/>
   </object>
-  <object id="90" x="528" y="501.333">
+  <object id="31" name="Barn Left" x="1153.33" y="1433.33">
+   <properties>
+    <property name="description" value="Uhh... Where did it go? /joking"/>
+    <property name="image" value="Superite_Shard_Barn_Left.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="91" x="430.667" y="86.6667">
+  <object id="32" name="Damn" x="657.75" y="1216">
+   <properties>
+    <property name="image" value="Superite_Shard_Damn.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="92" x="904.667" y="301.333">
+  <object id="33" name="Camping" x="853.217" y="1372.38">
+   <properties>
+    <property name="description" value="LETS GO CAMPING!"/>
+    <property name="image" value="Superite_Shard_Camping.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="93" x="1744.67" y="800">
+  <object id="34" name="Above Crocs" x="847.068" y="1580.91">
+   <properties>
+    <property name="image" value="Superite_Shard_Above_Crocs.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="94" x="1768.67" y="1026">
+  <object id="35" name="War Room" x="1597" y="1238">
+   <properties>
+    <property name="image" value="Superite_Shard_war_room.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="95" x="1889.33" y="1094">
+  <object id="36" name="Security Outpost" x="1623" y="1148">
+   <properties>
+    <property name="image" value="Superite_Shard_Security_Outpost.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="96" x="1939.33" y="1926">
+  <object id="37" name="Peaceful" x="1405.25" y="906">
+   <properties>
+    <property name="image" value="Superite_Shard_Peaceful.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="97" x="1208" y="2029.33">
+  <object id="38" name="Shack" x="1417.04" y="532.174">
+   <properties>
+    <property name="description">No blue foxes here! :3c 
+[[User:Shackhorn]]</property>
+    <property name="image" value="Superite_Shard_Shack.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="98" x="1126" y="1948.67">
+  <object id="39" name="Labs Mini" x="1374.5" y="622">
+   <properties>
+    <property name="image" value="Superite_Shard_Labs_Mini.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="99" x="745.333" y="2000">
+  <object id="40" name="Superite Zipline" x="431" y="640.25">
    <point/>
   </object>
-  <object id="100" x="901.333" y="1716">
+  <object id="41" name="Tripple Tundra" x="386.313" y="367.125">
+   <properties>
+    <property name="image" value="Superite_Shard_Tripple_Tundra.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="101" x="504.667" y="1080.67">
+  <object id="42" name="Tundra Hut" x="617.333" y="383.333">
+   <properties>
+    <property name="image" value="Superite_Shard_Tundra_Hut.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="102" x="343.333" y="1921.33">
+  <object id="59" name="Slums" x="318.568" y="849.727">
+   <properties>
+    <property name="image" value="Superite_Shard_Slums.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="103" x="656.667" y="1447.67">
+  <object id="73" name="Thomas" x="1400.73" y="371.818">
+   <properties>
+    <property name="image" value="Superite_Shard_Thomas.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="104" x="1220" y="1210">
+  <object id="74" name="Hamball Stadium" x="774.25" y="1796.25">
+   <properties>
+    <property name="image" value="Superite_Shard_Hamball_Stadium.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="105" x="1121.5" y="973.5">
+  <object id="75" name="Emu Enclosure" x="837.375" y="937.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Emu_Enclosure.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="106" x="1261.5" y="703.5">
+  <object id="76" name="Chimmys Precious" x="964.688" y="571.395">
+   <properties>
+    <property name="image" value="Superite_Shard_Chimmys_Precious.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="107" x="1115.5" y="700.5">
+  <object id="77" name=" Death Island" x="1574.98" y="1965.14">
+   <properties>
+    <property name="image" value="Superite_Shard_ DeathIsland.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="108" x="1729" y="479">
+  <object id="78" name="Tundra Zipline" x="530.375" y="184.875">
+   <properties>
+    <property name="image" value="Superite_Shard_Tundra_Zipline.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="109" x="1613.5" y="560">
+  <object id="79" name="Under a Tree" x="161" y="1796.25">
+   <properties>
+    <property name="image" value="Superite_Shard_Under_a_Tree.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="110" x="408" y="1182.67">
+  <object id="80" name="Slow Food" x="203.25" y="1770.25">
+   <properties>
+    <property name="description" value=""/>
+    <property name="image" value="Superite_Shard_Slow_Food.png"/>
+   </properties>
    <point/>
   </object>
-  <object id="111" x="228.667" y="235">
+  <object id="81" name="Ferret Dressing" x="322.188" y="1295.06">
+   <properties>
+    <property name="image" value="Superite_Shard_Ferret_Dressing.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="112" x="1328" y="1487">
+  <object id="82" name="Forebeavers Bed" x="655.25" y="1120.63">
+   <properties>
+    <property name="image" value="Superite_Shard_Forebeavers_Bed.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="113" x="1484.5" y="825.5">
+  <object id="83" name="Uncreative" x="901.652" y="1091.46">
+   <properties>
+    <property name="description" value="Sorry dev if you're reading this. Don't take this as an insult D:"/>
+    <property name="image" value="Superite_Shard_Uncreative.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="114" x="276" y="1593">
+  <object id="84" name="Goldwoods Fire" x="1408.67" y="1584">
+   <properties>
+    <property name="description" value="This one can be difficult to find as the text on the map covres this."/>
+    <property name="image" value="Superite_Shard_Goldwoods_Fire.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="115" x="456.5" y="1566">
+  <object id="85" name="Right Cave" x="1630.37" y="1644.23">
+   <properties>
+    <property name="image" value="Superite_Shard_Right_Cave.jpg"/>
+   </properties>
    <point/>
   </object>
-  <object id="116" x="667.5" y="526.5">
+  <object id="86" name="Yummy Bamboo" x="1025.86" y="1194.61">
+   <properties>
+    <property name="image" value="Superite_Shard_Yummy_Bamboo.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="88" name="Prison Cell" x="604.333" y="645.667">
+   <properties>
+    <property name="image" value="Superite_Shard_Prison Cell.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="89" name="Pyramid Center" x="585.969" y="786.212">
+   <properties>
+    <property name="description" value="This one is inside the center room of the pyramid on the top left of the room"/>
+    <property name="image" value="Superite_Shard_Pyramid_Center.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="90" name="Cave" x="539.182" y="500.242">
+   <properties>
+    <property name="image" value="Superite_Shard_Cave.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="91" name="Tundra Crates" x="430.667" y="86.6667">
+   <properties>
+    <property name="image" value="Superite_Shard_Tundra_Crates.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="92" name="Place Storeroom" x="904.667" y="301.333">
+   <properties>
+    <property name="image" value="Superite_Shard_Palace_Storeroom.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="93" name="Duck" x="1743.85" y="800.909">
+   <properties>
+    <property name="image" value="Superite_Shard_Duck.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="94" name="Shipping Red" x="1768.3" y="1027.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Shipping_Red.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="95" name="Shipping Green" x="1889.33" y="1094">
+   <properties>
+    <property name="image" value="Superite_Shard_Shipping_Green.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="96" name="Right Pier" x="1939.33" y="1926">
+   <properties>
+    <property name="image" value="Superite_Shard_Right_Pier.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="97" name="Victory Nest" x="1208" y="2029.33">
+   <properties>
+    <property name="description" value="A win in Battle Royale is required to access victory Island through the ziplines"/>
+    <property name="image" value="Superite_Shard_Victory_Nest.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="98" name="Victory Jukebox" x="1124.66" y="1952.65">
+   <properties>
+    <property name="description" value="A win in Battle Royale is required to access victory Island through the ziplines. This one is found infront of the jukebox on victory island"/>
+    <property name="image" value="Superite_Shard_Victory_Jukebox.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="99" name="Victory Pier" x="745.333" y="2000">
+   <properties>
+    <property name="description" value="A win in Battle Royale is required to access victory Island through the ziplines"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="100" name="Graveyard" x="902.507" y="1718.22">
+   <properties>
+    <property name="image" value="Superite_Shard_Graveyard.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="101" name="Farrel's Favourite" x="504.667" y="1080.67">
+   <properties>
+    <property name="image" value="Superite_Shard_Farrels_Favourite.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="102" name="Boat" x="333.898" y="1931.11">
+   <properties>
+    <property name="image" value="Superite_Shard_Victory_Jukebox.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="103" name="Beakeasy Toilet" x="660.303" y="1447.85">
+   <properties>
+    <property name="image" value="Superite_Shard_Beakeasy_Toilet.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="104" name="Bamboo Right" x="1220" y="1210">
+   <properties>
+    <property name="image" value="Superite_Shard_Bamboo_Right.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="105" name="Bamboo Top" x="1121.5" y="973.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Bamboo_Top.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="106" name="Labs Right" x="1267.46" y="703.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Labs_Right.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="107" name="Misprints" x="1115.5" y="700.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Misprints.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="Banan" x="1720.36" y="480.545">
+   <properties>
+    <property name="image" value="Superite_Shard_Banan.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="109" name="Tetris" x="1616.37" y="561.609">
+   <properties>
+    <property name="image" value="Superite_Shard_Tetris.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="110" name="Murre Woods" x="407.696" y="1182.67">
+   <properties>
+    <property name="image" value="Superite_Shard_Murre_Woods.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="111" name="A1 Moment" x="228.667" y="235">
+   <properties>
+    <property name="image" value="Superite_Shard_A1_Moment.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="112" name="Farm Outhouse" x="1326.66" y="1488.81">
+   <properties>
+    <property name="image" value="Superite_Shard_Farm_Outhouse.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="113" name="Juice Factory" x="1484.5" y="825.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Juice_Factory.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="114" name="Noclip" x="270" y="1585.43">
+   <properties>
+    <property name="image" value="Superite_Shard_Noclip.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="115" name="Easiest to miss" x="456.283" y="1567.39">
+   <properties>
+    <property name="image" value="Superite_Shard_Easiest_to_miss.jpg"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="116" name="Rebels" x="667.5" y="526.5">
+   <properties>
+    <property name="image" value="Superite_Shard_Rebels.jpg"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="10" name="ziplines">
+ <objectgroup id="10" name="ziplines" visible="0">
   <object id="117" name="Permanent Zipline" x="687" y="993.333">
    <properties>
     <property name="color" type="color" value="#ff0eff01"/>
@@ -347,7 +555,7 @@
    <polyline points="0,0 -53.5,0.75"/>
   </object>
  </objectgroup>
- <objectgroup id="11" name="photobooth">
+ <objectgroup id="11" name="photobooth" visible="0">
   <object id="133" x="355.091" y="1759.64">
    <point/>
   </object>
@@ -364,7 +572,7 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="8" name="mtnstation">
+ <objectgroup id="8" name="mtnstation" visible="0">
   <object id="60" name="End-of-the-World Station" x="1861" y="273">
    <point/>
   </object>
@@ -402,12 +610,137 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="7" name="dogna">
+ <objectgroup id="7" name="dogna" visible="0">
   <object id="43" x="915.333" y="1980.33">
    <properties>
     <property name="description" value="Dr. Dogna is inside the lab on Victory Island"/>
     <property name="page" value="Dr. Dogna"/>
    </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffffff" id="13" name="Clams">
+  <object id="138" x="1866.13" y="605.625">
+   <point/>
+  </object>
+  <object id="139" x="1839.75" y="671.708">
+   <point/>
+  </object>
+  <object id="140" x="1810.33" y="769">
+   <point/>
+  </object>
+  <object id="141" x="1876.54" y="865.875">
+   <point/>
+  </object>
+  <object id="142" x="1848.18" y="937.909">
+   <point/>
+  </object>
+  <object id="143" x="1829.94" y="1791.81">
+   <point/>
+  </object>
+  <object id="144" x="1929" y="1639.67">
+   <point/>
+  </object>
+  <object id="145" x="1853" y="1554.67">
+   <point/>
+  </object>
+  <object id="146" x="1897" y="1770.67">
+   <point/>
+  </object>
+  <object id="147" x="1925.33" y="1967.33">
+   <point/>
+  </object>
+  <object id="148" x="1867.67" y="1973.67">
+   <point/>
+  </object>
+  <object id="149" x="1717.25" y="1971.38">
+   <point/>
+  </object>
+  <object id="150" x="1673.13" y="1937.63">
+   <point/>
+  </object>
+  <object id="151" x="1614.25" y="1869.63">
+   <point/>
+  </object>
+  <object id="152" x="1503.25" y="1961.25">
+   <point/>
+  </object>
+  <object id="153" x="1604.88" y="1922.88">
+   <point/>
+  </object>
+  <object id="154" x="1494.18" y="1872.09">
+   <point/>
+  </object>
+  <object id="155" x="1400.55" y="1869.45">
+   <point/>
+  </object>
+  <object id="156" x="1251.45" y="1858">
+   <point/>
+  </object>
+  <object id="157" x="1184" y="1824.18">
+   <point/>
+  </object>
+  <object id="158" x="1098.73" y="1815.45">
+   <point/>
+  </object>
+  <object id="159" x="997.273" y="1824.73">
+   <point/>
+  </object>
+  <object id="160" x="256" y="757.091">
+   <point/>
+  </object>
+  <object id="161" x="909.75" y="1851.75">
+   <point/>
+  </object>
+  <object id="162" x="859.875" y="1926.38">
+   <point/>
+  </object>
+  <object id="163" x="740" y="1941.13">
+   <point/>
+  </object>
+  <object id="165" x="666.364" y="1949.64">
+   <point/>
+  </object>
+  <object id="166" x="592" y="1928.5">
+   <point/>
+  </object>
+  <object id="167" x="568.625" y="1867.75">
+   <point/>
+  </object>
+  <object id="168" x="540.125" y="1791.63">
+   <point/>
+  </object>
+  <object id="169" x="131.875" y="1598.38">
+   <point/>
+  </object>
+  <object id="170" x="125.5" y="1513">
+   <point/>
+  </object>
+  <object id="171" x="102.875" y="1399.13">
+   <point/>
+  </object>
+  <object id="172" x="58.375" y="1330.25">
+   <point/>
+  </object>
+  <object id="173" x="90.4545" y="1261">
+   <point/>
+  </object>
+  <object id="174" x="140.364" y="1207.45">
+   <point/>
+  </object>
+  <object id="175" x="178.727" y="1032.91">
+   <point/>
+  </object>
+  <object id="176" x="283.091" y="999.636">
+   <point/>
+  </object>
+  <object id="177" x="361.091" y="975.091">
+   <point/>
+  </object>
+  <object id="178" x="195.091" y="928">
+   <point/>
+  </object>
+  <object id="179" x="219.25" y="806.625">
    <point/>
   </object>
  </objectgroup>
