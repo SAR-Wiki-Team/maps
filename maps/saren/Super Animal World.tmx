@@ -13,7 +13,7 @@
   </properties>
  </imagelayer>
  <objectgroup id="4" name="npcs"/>
- <objectgroup id="6" name="superiteshard" visible="0">
+ <objectgroup id="6" name="superiteshard">
   <object id="17" name="Privacy" x="371.768" y="1636.11">
    <properties>
     <property name="image" value="Superite_Shard_Privacy.jpg"/>
@@ -100,7 +100,7 @@
   </object>
   <object id="30" name="Storytime With Donk" x="1238" y="1389">
    <properties>
-    <property name="image" value="Superite_Shard_Storytime_With_Donk"/>
+    <property name="image" value="Superite_Shard_Storytime_With_Donk.jpg"/>
    </properties>
    <point/>
   </object>
@@ -209,7 +209,7 @@
   </object>
   <object id="77" name=" Death Island" x="1574.98" y="1965.14">
    <properties>
-    <property name="image" value="Superite_Shard_ DeathIsland.jpg"/>
+    <property name="image" value="Superite_Shard_ Death_Island.jpg"/>
    </properties>
    <point/>
   </object>
@@ -363,21 +363,21 @@
    </properties>
    <point/>
   </object>
-  <object id="103" name="Beakeasy Toilet" x="660.303" y="1447.85">
+  <object id="103" name="Eagle Right" x="660.303" y="1447.85">
    <properties>
-    <property name="image" value="Superite_Shard_Beakeasy_Toilet.jpg"/>
+    <property name="image" value="Superite_Shard_Eagle_Right.jpg"/>
    </properties>
    <point/>
   </object>
   <object id="104" name="Bamboo Right" x="1220" y="1210">
    <properties>
-    <property name="image" value="Superite_Shard_Bamboo_Right.jpg"/>
+    <property name="image" value="Superite_Shard_Bamboo_right.jpg"/>
    </properties>
    <point/>
   </object>
-  <object id="105" name="Bamboo Top" x="1121.5" y="973.5">
+  <object id="105" name="Bamboo Stage" x="1121.5" y="973.5">
    <properties>
-    <property name="image" value="Superite_Shard_Bamboo_Top.jpg"/>
+    <property name="image" value="Superite_Shard_Bamboo_Stage.jpg"/>
    </properties>
    <point/>
   </object>
