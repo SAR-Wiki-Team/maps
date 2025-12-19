@@ -7,7 +7,7 @@
   <image source="Images/Map_Indoors.png"/>
  </imagelayer>
  <imagelayer id="3" name="Map">
-  <image source="Images/Map.png" width="2048" height="2048"/>
+  <image source="Images/Map.png"/>
   <properties>
    <property name="include" value="Map:Common"/>
   </properties>
@@ -151,7 +151,7 @@
   <object id="38" name="Shack" x="1417.04" y="532.174">
    <properties>
     <property name="description">No blue foxes here! :3c 
-[[User:Shackhorn]]</property>
+[[User:Shack]]</property>
     <property name="image" value="Superite_Shard_Shack.jpg"/>
    </properties>
    <point/>
