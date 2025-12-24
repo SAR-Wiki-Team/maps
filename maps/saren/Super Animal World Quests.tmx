@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="193">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="194">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -504,18 +504,20 @@
    </properties>
    <point/>
   </object>
-  <object id="191" name="White Pearl Tiara" x="1294.36" y="1780">
-   <properties>
-    <property name="description" value="Location of White Pearl Tiara hidden by Louie during Crustacean Reciprocation quest given by Louie."/>
-    <property name="image" value="White Pearl Tiara Location.png"/>
-   </properties>
-   <point/>
-  </object>
  </objectgroup>
  <objectgroup id="14" name="liz">
   <object id="180" name="Lizard Minnelli" x="355" y="1348.67">
    <properties>
     <property name="page" value="Lizard Minnelli"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="18" name="louiequest">
+  <object id="193" name="White Pearl Tiara" x="1294" y="1778.5">
+   <properties>
+    <property name="description" value="Location of White Pearl Tiara hidden by Louie during Crustacean Reciprocation quest given by Louie."/>
+    <property name="image" value="White Pearl Tiara Location.png"/>
    </properties>
    <point/>
   </object>
