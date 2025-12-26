@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="19" nextobjectid="194">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="70" nextobjectid="249">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -13,7 +13,7 @@
   </properties>
  </imagelayer>
  <objectgroup id="4" name="npcs"/>
- <objectgroup id="6" name="superiteshard">
+ <objectgroup id="6" name="superiteshard" visible="0">
   <object id="17" name="Privacy" x="371.768" y="1636.11">
    <properties>
     <property name="image" value="Superite_Shard_Privacy.jpg"/>
@@ -448,6 +448,229 @@
    <point/>
   </object>
  </objectgroup>
+ <objectgroup id="37" name="thomassledison">
+  <object id="214" name="Thomas Sledison" x="1416" y="368">
+   <properties>
+    <property name="page" value="Thomas Sledison"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="38" name="masterwaddlesworth">
+  <object id="215" name="Master Waddlesworth" x="1438.73" y="375.091">
+   <properties>
+    <property name="page" value="Master Waddlesworth"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="39" name="monsieurpalmes">
+  <object id="216" name="Monsieur Palmes" x="966.125" y="367">
+   <properties>
+    <property name="page" value="Monsieur Palmes"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="40" name="taraflipinski">
+  <object id="217" name="Tara Flipinski" x="1024.55" y="431.091">
+   <properties>
+    <property name="description" value="Tara Flipinski is a roaming NPC and can be found around the map marker"/>
+    <property name="page" value="Tara Flipinski"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="41" name="werner">
+  <object id="218" name="Werner Furzog" x="341.25" y="111">
+   <properties>
+    <property name="page" value="Werner Furzog"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="42" name="lassen">
+  <object id="219" name="Lassen" x="439.875" y="559.125">
+   <properties>
+    <property name="page" value="Lassen"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="43" name="finch">
+  <object id="220" name="The Finch" x="650.125" y="536.75">
+   <properties>
+    <property name="page" value="The Finch"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="44" name="shivers">
+  <object id="221" name="Shivers" x="637.625" y="532.25">
+   <properties>
+    <property name="page" value="Shivers"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="45" name="badger">
+  <object id="222" name="The Badger" x="652.375" y="619.25">
+   <properties>
+    <property name="page" value="The Badger"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="46" name="peep">
+  <object id="223" name="Peep" x="637.125" y="635.375">
+   <properties>
+    <property name="page" value="Peep"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="47" name="cowlamityjane">
+  <object id="224" name="Cowlamity Jane" x="345.5" y="865">
+   <properties>
+    <property name="description" value="Cowlamity Jane is a roaming NPC but can be found always in the same house"/>
+    <property name="page" value="Cowlamity Jane"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="48" name="threetoedjack">
+  <object id="225" name="Three-Toed Jack" x="856.5" y="951.5">
+   <properties>
+    <property name="page" value="Three-Toed Jack"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="49" name="wentworth">
+  <object id="228" name="Wentworth" x="809.667" y="900">
+   <properties>
+    <property name="page" value="Wentworth"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="50" name="johnmurre">
+  <object id="229" name="John Murre" x="405.333" y="1106.33">
+   <properties>
+    <property name="description" value="John Murre is a roaming NPC and can be found in the Murre Woods"/>
+    <property name="page" value="John Murre"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="51" name="ticky">
+  <object id="230" name="Ticky" x="292.545" y="1077.64">
+   <properties>
+    <property name="page" value="Ticky"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="52" name="anji">
+  <object id="231" name="Anji" x="1124.36" y="1192.55">
+   <properties>
+    <property name="page" value="Anji"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="53" name="eoquillson">
+  <object id="232" name="E.O. Quillson" x="870.667" y="1370">
+   <properties>
+    <property name="description" value="E.O. Quillson is a roaming NPC and can be found generally around the marker in the same forest part"/>
+    <property name="page" value="E.O. Quillson"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="54" name="pete">
+  <object id="233" name="Pete" x="1036.33" y="1596.67">
+   <properties>
+    <property name="page" value="Pete"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="55" name="rabbitasmith">
+  <object id="234" name="Rabbita Smith" x="453.125" y="1772">
+   <properties>
+    <property name="description" value="Rabbita Smith is a roaming NPC that can be found in Super Museum of Modern Art"/>
+    <property name="page" value="Rabbita Smith"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="56" name="averagejoe">
+  <object id="235" name="Average Joe" x="857" y="1701.5">
+   <properties>
+    <property name="description" value="Average Joe is a roaming NPC but can be found around the marker"/>
+    <property name="page" value="Average Joe"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="57" name="walterperch">
+  <object id="236" name="Walter Perch" x="231.455" y="1553.64">
+   <properties>
+    <property name="page" value="Walter Perch"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="58" name="catfive">
+  <object id="237" name="Catfive" x="214.909" y="1542.36">
+   <properties>
+    <property name="description" value="Catfive is a roaming NPC that can be found sweeping floor around the studio set"/>
+    <property name="page" value="Catfive"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="59" name="donkpatrick">
+  <object id="238" name="Donk Patrick" x="187.636" y="1558">
+   <properties>
+    <property name="page" value="Donk Patrick"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="60" name="howlmichaels">
+  <object id="239" name="Howl Michaels" x="188" y="1570.55">
+   <properties>
+    <property name="page" value="Howl Michaels"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="61" name="slothyaoki">
+  <object id="240" name="Slothy Aoki" x="231.091" y="1792">
+   <properties>
+    <property name="page" value="Slothy Aoki"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="62" name="capseadog">
+  <object id="241" name="Cap'n Seadog" x="245.818" y="1919.82">
+   <properties>
+    <property name="page" value="Cap'n Seadog"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="63" name="quackshot">
+  <object id="242" name="Quack Shot" x="379.125" y="1609.13">
+   <properties>
+    <property name="page" value="Quack Shot"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
  <objectgroup id="16" name="lizquest">
   <object id="181" name="Easy Stage" x="600.333" y="1435.67">
    <properties>
@@ -522,10 +745,203 @@
    <point/>
   </object>
  </objectgroup>
+ <objectgroup id="19" name="moosevelt">
+  <object id="194" name="Governor Moosevelt" x="305.5" y="1803">
+   <properties>
+    <property name="page" value="Governor Moosevelt"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="20" name="sergantopray">
+  <object id="196" name="Sergeant O’Prey" x="244.75" y="1725">
+   <properties>
+    <property name="page" value="Sergeant O’Prey"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="21" name="officerbella">
+  <object id="197" name="Officer Bella" x="148.75" y="1687">
+   <properties>
+    <property name="page" value="Officer Bella"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="22" name="clara">
+  <object id="198" name="Clara" x="401.5" y="1723.5">
+   <properties>
+    <property name="page" value="Clara"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="23" name="heidiplume">
+  <object id="199" name="Heidi Plume" x="366.25" y="1723.75">
+   <properties>
+    <property name="page" value="Heidi Plume"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="24" name="alamere">
+  <object id="200" name="Alamere" x="285.5" y="1681.75">
+   <properties>
+    <property name="page" value="Alamere"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="64" name="joffre">
+  <object id="243" name="Joffre" x="1419.27" y="1379.64">
+   <properties>
+    <property name="page" value="Joffre"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="65" name="johnston">
+  <object id="244" name="Johnston" x="939.667" y="324.667">
+   <properties>
+    <property name="page" value="Johnston"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="66" name="bruce">
+  <object id="245" name="Bruce" x="1038.5" y="1958.25">
+   <properties>
+    <property name="page" value="Bruce"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="67" name="reginaldhawkins">
+  <object id="246" name="Reginald Hawkins" x="1107.25" y="1980.25">
+   <properties>
+    <property name="page" value="Reginald Hawkins"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="68" name="katieoprey">
+  <object id="247" name="Katie O'Prey" x="973.75" y="1956.75">
+   <properties>
+    <property name="page" value="Katie O'Prey"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="69" name="drjenneferdogna">
+  <object id="248" name="Dr. Jennifer Dogna" x="919.5" y="1966">
+   <properties>
+    <property name="page" value="Dr. Jennifer Dogna"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="25" name="regularjoe">
+  <object id="202" name="Regular Joe" x="406.25" y="1693.5">
+   <properties>
+    <property name="description" value="Regular Joe is roaming NPC and can be found in the right square from the S.A.W. Welcome Center fountain walking on the outer walk"/>
+    <property name="page" value="Regular Joe"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="26" name="michaelchewmacher">
+  <object id="203" name="Michael Chewmacher" x="729.909" y="1753">
+   <properties>
+    <property name="page" value="Michael Chewmacher"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="27" name="farallon">
+  <object id="204" name="Farallon" x="1822.36" y="1911.64">
+   <properties>
+    <property name="page" value="Farallon"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="28" name="rachelcharson">
+  <object id="205" name="Rachel Charson" x="1714" y="1763.64">
+   <properties>
+    <property name="page" value="Rachel Charson"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="29" name="ottercle">
+  <object id="206" name="The Ottercle" x="1928" y="1442.36">
+   <properties>
+    <property name="page" value="The Ottercle"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="30" name="fuca">
+  <object id="207" name="Fuca" x="1838.27" y="1239">
+   <properties>
+    <property name="page" value="Fuca"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="31" name="generalmacarfur">
+  <object id="208" name="General MacarFur" x="1598.25" y="1212.13">
+   <properties>
+    <property name="page" value="General MacarFur"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="32" name="officerjax">
+  <object id="209" name="Officer Jax" x="1480.75" y="1243.13">
+   <properties>
+    <property name="page" value="Officer Jax"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="33" name="como">
+  <object id="210" name="Como" x="1881.45" y="277.818">
+   <properties>
+    <property name="page" value="Como"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="34" name="prophetofbanan">
+  <object id="211" name="Prophet of Banan" x="1730.55" y="392.364">
+   <properties>
+    <property name="page" value="Prophet of Banan"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="35" name="drfanciscollars">
+  <object id="212" name="Dr. Francis Collars" x="1261" y="621.667">
+   <properties>
+    <property name="page" value="Dr. Francis Collars"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="36" name="bixby">
+  <object id="213" name="Bixby" x="1173" y="632.333">
+   <properties>
+    <property name="page" value="Bixby"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
  <objectgroup id="17" name="louie">
   <object id="192" name="Louie" x="1426.5" y="1819">
    <properties>
-    <property name="description" value="Louie is a giant crab"/>
+    <property name="description" value="Louie is a giant crab. They are a roaming NPC and can be found around the marker on the beach."/>
     <property name="page" value="Louie"/>
    </properties>
    <point/>
@@ -638,7 +1054,7 @@
    <polyline points="0,0 -53.5,0.75"/>
   </object>
  </objectgroup>
- <objectgroup id="11" name="photobooth">
+ <objectgroup id="11" name="photobooth" visible="0">
   <object id="133" x="355.091" y="1759.64">
    <point/>
   </object>
@@ -690,15 +1106,6 @@
    <point/>
   </object>
   <object id="71" name="Murre Station " x="273" y="1071">
-   <point/>
-  </object>
- </objectgroup>
- <objectgroup id="7" name="dogna">
-  <object id="43" x="915.333" y="1980.33">
-   <properties>
-    <property name="description" value="Dr. Dogna is inside the lab on Victory Island"/>
-    <property name="page" value="Dr. Dogna"/>
-   </properties>
    <point/>
   </object>
  </objectgroup>
