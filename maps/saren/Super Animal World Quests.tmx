@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="70" nextobjectid="249">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="75" nextobjectid="259">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -601,6 +601,76 @@
    <properties>
     <property name="description" value="Rabbita Smith is a roaming NPC that can be found in Super Museum of Modern Art"/>
     <property name="page" value="Rabbita Smith"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="70" name="rabbitasmithquest">
+  <object id="254" name="Photo Roll #6" x="1213.63" y="1108.88">
+   <properties>
+    <property name="description" value="A photo roll Rabbita lost while visiting her &quot;cousin&quot; Tiao."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="253" name="Photo Roll #5" x="1423.56" y="837.375">
+   <properties>
+    <property name="description" value="A photo roll Rabbita has lost when tasting health juice."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="252" name="Photo Roll #4" x="335.563" y="1413.44">
+   <properties>
+    <property name="description" value="Photo roll Rabbita has lost while in control room of the theatre on the night of the Incident.  "/>
+   </properties>
+   <point/>
+  </object>
+  <object id="251" name="Photo Roll #3" x="1978.88" y="1675.88">
+   <properties>
+    <property name="description" value="A photo roll Rabbita has lost while eating fish delicacy at fish restaurant"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="249" name="Photo Roll #2" x="858.636" y="876.091">
+   <properties>
+    <property name="description" value="A Photo Rabbita has lost when riding emus"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="250" name="Photo Roll #1" x="349.5" y="1658.38">
+   <properties>
+    <property name="description" value="A photo roll Rabbita has lost on the day of The Incident while Rabbita was eating a pie"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="71" name="farrel">
+  <object id="255" name="Farrel" x="322.909" y="1554.36">
+   <properties>
+    <property name="page" value="Farrel"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="72" name="darrel">
+  <object id="256" name="Darrel" x="530.25" y="957.5">
+   <properties>
+    <property name="page" value="Darrel"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="73" name="rafael">
+  <object id="257" name="Rafael" x="273.5" y="1931">
+   <properties>
+    <property name="page" value="Rafael"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="74" name="ronald">
+  <object id="258" name="Ronald" x="218" y="1905.25">
+   <properties>
+    <property name="page" value="Ronald"/>
    </properties>
    <point/>
   </object>
