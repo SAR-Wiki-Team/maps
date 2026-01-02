@@ -448,7 +448,7 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="10" name="ziplines" visible="0">
+ <objectgroup id="10" name="ziplines">
   <object id="117" name="Permanent Zipline" x="687" y="993.333">
    <properties>
     <property name="color" type="color" value="#ff0eff01"/>
@@ -555,7 +555,7 @@
    <polyline points="0,0 -53.5,0.75"/>
   </object>
  </objectgroup>
- <objectgroup id="11" name="photobooth" visible="0">
+ <objectgroup id="11" name="photobooth">
   <object id="133" x="355.091" y="1759.64">
    <point/>
   </object>
@@ -572,7 +572,7 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="8" name="mtnstation" visible="0">
+ <objectgroup id="8" name="mtnstation">
   <object id="60" name="End-of-the-World Station" x="1861" y="273">
    <point/>
   </object>
