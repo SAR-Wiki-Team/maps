@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="80" nextobjectid="265">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="81" nextobjectid="266">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -515,6 +515,15 @@
   <object id="263" name="Polly" x="340.667" y="1238.67">
    <properties>
     <property name="description" value="Polly is a roaming NPC and can be found on the road in between Murre Woods and Super Stage."/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="80" name="officermcruffbark">
+  <object id="265" name="Officer McRuffBark" x="178.25" y="1701.75">
+   <properties>
+    <property name="description" value="Officer McRuffBark is a roaming NPC that can be found on the left from S.A.W. Welcome Center fountain."/>
+    <property name="page" value="Officer McRuffBark"/>
    </properties>
    <point/>
   </object>
