@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="99">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="104">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
  <imagelayer id="2" name="Map" locked="1">
-  <image source="Images/Map.png" width="2048" height="2048"/>
+  <image source="Images/Map Indoors.png" width="2048" height="2048"/>
   <properties>
    <property name="include" value="Map:Common"/>
   </properties>
  </imagelayer>
+ <objectgroup id="15" name="secretplaces">
+  <object id="99" name="Secret Area Super Stage" x="291.5" y="1297" width="22" height="18">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffff8000"/>
+   </properties>
+  </object>
+  <object id="100" name="Secret Area Farm" x="1188.13" y="1370.38" width="42.75" height="29.75">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffff8000"/>
+   </properties>
+  </object>
+  <object id="101" name="Secret Area Armory" x="1513.45" y="1187.27" width="22.1818" height="18.5455">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffff8000"/>
+   </properties>
+  </object>
+  <object id="102" name="Secret Area Lighthouse" x="1925.45" y="1435.27" width="10.5455" height="11.2727">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffff8000"/>
+   </properties>
+  </object>
+  <object id="103" name="Secret Area Laboratorium" x="668.364" y="755.091" width="24" height="21.0909">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffff8000"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="14" name="campfire">
   <object id="46" x="312" y="1147">
    <point/>
