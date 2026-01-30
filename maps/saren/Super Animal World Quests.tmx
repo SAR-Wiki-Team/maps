@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="92" nextobjectid="279">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="93" nextobjectid="280">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -744,6 +744,14 @@
    <properties>
     <property name="description" value="Catfive is a roaming NPC that can be found sweeping floor around the studio set"/>
     <property name="page" value="Catfive"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="92" name="catfivequest">
+  <object id="279" name="Thumbdrive Location" x="1085.55" y="1959.82">
+   <properties>
+    <property name="description" value="Location of Thumbdrive Location from A Victorious Heist quest."/>
    </properties>
    <point/>
   </object>
