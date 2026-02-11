@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="94" nextobjectid="281">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="96" nextobjectid="283">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -760,6 +760,24 @@
   <object id="280" name="Carlsbad" x="292.125" y="1688.38">
    <properties>
     <property name="page" value="Carlsbad"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="95" name="mitchblubchannon">
+  <object id="282" name="Mitch Blubchannon" x="1582.67" y="1843.33">
+   <properties>
+    <property name="description" value="Mitch Blubchannon is a roaming NPC and can be found on the beach shore near the marker"/>
+    <property name="page" value="Mitch Blubchannon"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="94" name="cjbarker">
+  <object id="281" name="C.J. Barker" x="1109.25" y="1799.63">
+   <properties>
+    <property name="description" value="C.J. Barker is a roaming NPC and can be found along the beach coast near this marker"/>
+    <property name="page" value="C.J. Barker"/>
    </properties>
    <point/>
   </object>
