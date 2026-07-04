@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="102" nextobjectid="289">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="106" nextobjectid="293">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
  <imagelayer id="12" name="Map_Indoors">
   <image source="Images/Map Indoors.png" width="2048" height="2048"/>
  </imagelayer>
- <imagelayer id="3" name="Map" visible="0">
+ <imagelayer id="3" name="Map">
   <image source="Images/Map.png" width="2048" height="2048"/>
   <properties>
    <property name="include" value="Map:Common"/>
@@ -627,9 +627,26 @@
   </object>
  </objectgroup>
  <objectgroup id="51" name="ticky">
-  <object id="230" name="Ticky" x="292.545" y="1077.64">
+  <object id="230" name="Ticky" x="189.295" y="1073.64">
    <properties>
     <property name="page" value="Ticky"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="103" name="barryessa">
+  <object id="290" name="Barryessa" x="1762.82" y="1762.73">
+   <properties>
+    <property name="page" value="Barryessa"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="104" name="wildbullhickok">
+  <object id="291" name="Wild Bull Hickok" x="348.688" y="879.063">
+   <properties>
+    <property name="description" value="Wild Bull Hickok is roaming NPC and can be found in front of the L shaped house in Super Saharaland"/>
+    <property name="page" value="Wild Bull Hickok"/>
    </properties>
    <point/>
   </object>
@@ -1365,7 +1382,15 @@
   <object id="70" name="Emu Station" x="796" y="909">
    <point/>
   </object>
-  <object id="71" name="Murre Station " x="273" y="1071">
+  <object id="71" name="Murre Station " x="256.25" y="1066">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="102" name="tantalus">
+  <object id="289" name="Tantalus" x="252.913" y="1082.09">
+   <properties>
+    <property name="page" value="Tantalus"/>
+   </properties>
    <point/>
   </object>
  </objectgroup>
@@ -1507,6 +1532,15 @@
   <object id="284" name="Enos" x="1442.25" y="552.75">
    <properties>
     <property name="page" value="Enos"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="105" name="nibbles">
+  <object id="292" name="Nibbles" x="643.25" y="582.75">
+   <properties>
+    <property name="description" value="Nibbles is a roaming NPC and can be found walking around Superite Mountain guarding the rebel hideout"/>
+    <property name="page" value="Nibbles"/>
    </properties>
    <point/>
   </object>
