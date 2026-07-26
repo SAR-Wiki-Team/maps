@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="180">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="182">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
  <imagelayer id="12" name="Map_Indoors">
-  <image source="Images/Map_Indoors.png"/>
+  <image source="Images/Map_Indoors.png" width="2048" height="2048"/>
  </imagelayer>
  <imagelayer id="3" name="Map">
-  <image source="Images/Map.png"/>
+  <image source="Images/Map.png" width="2048" height="2048"/>
   <properties>
    <property name="include" value="Map:Common"/>
   </properties>
@@ -33,7 +33,7 @@
    </properties>
    <point/>
   </object>
-  <object id="20" name="Shore West" x="171.667" y="1037.33">
+  <object id="20" name="Shore West" x="144.417" y="1027.58">
    <properties>
     <property name="description" value="On the edge of the coast in shallow water"/>
     <property name="image" value="Superite_Shard_Shore_West.jpg"/>
@@ -606,11 +606,11 @@
   <object id="70" name="Emu Station" x="796" y="909">
    <point/>
   </object>
-  <object id="71" name="Murre Station " x="273" y="1071">
+  <object id="71" name="Murre Station " x="256.6" y="1068">
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="7" name="dogna" visible="0">
+ <objectgroup id="7" name="dogna">
   <object id="43" x="915.333" y="1980.33">
    <properties>
     <property name="description" value="Dr. Dogna is inside the lab on Victory Island"/>
@@ -725,10 +725,10 @@
   <object id="173" x="90.4545" y="1261">
    <point/>
   </object>
-  <object id="174" x="140.364" y="1207.45">
+  <object id="174" x="137.489" y="1190.83">
    <point/>
   </object>
-  <object id="175" x="178.727" y="1032.91">
+  <object id="175" x="140.227" y="1037.66">
    <point/>
   </object>
   <object id="176" x="283.091" y="999.636">
@@ -741,6 +741,12 @@
    <point/>
   </object>
   <object id="179" x="219.25" y="806.625">
+   <point/>
+  </object>
+  <object id="180" x="211.75" y="992.159">
+   <point/>
+  </object>
+  <object id="181" x="129.273" y="1117.82">
    <point/>
   </object>
  </objectgroup>
