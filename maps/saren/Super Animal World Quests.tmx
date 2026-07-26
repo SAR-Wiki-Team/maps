@@ -700,7 +700,7 @@
   </object>
   <object id="252" name="Photo Roll #4" x="335.563" y="1413.44">
    <properties>
-    <property name="description" value="Photo roll Rabbita has lost while in control room of the theatre on the night of the Incident.  "/>
+    <property name="description" value="Photo roll Rabbita has lost while in control room of the theatre on the night of the Incident."/>
    </properties>
    <point/>
   </object>
@@ -1382,7 +1382,7 @@
   <object id="70" name="Emu Station" x="796" y="909">
    <point/>
   </object>
-  <object id="71" name="Murre Station " x="256.25" y="1066">
+  <object id="71" name="Murre Station" x="256.25" y="1066">
    <point/>
   </object>
  </objectgroup>
