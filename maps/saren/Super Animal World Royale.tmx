@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="130">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="163">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
  <imagelayer id="2" name="Map" locked="1">
-  <image source="Images/Map Indoors.png" width="2048" height="2048"/>
+  <image source="Images/Map_Indoors.png" width="2048" height="2048"/>
   <properties>
    <property name="include" value="Map:Common"/>
   </properties>
@@ -131,7 +131,7 @@
   <object id="47" x="409.333" y="1198">
    <point/>
   </object>
-  <object id="48" x="215.5" y="1033">
+  <object id="48" x="176.83" y="1092.3">
    <point/>
   </object>
   <object id="49" x="266" y="919">
@@ -158,13 +158,13 @@
   <object id="56" x="391.5" y="185.5">
    <point/>
   </object>
-  <object id="57" x="753.5" y="414.5">
+  <object id="57" x="745.5" y="419.5">
    <point/>
   </object>
   <object id="58" x="678" y="270">
    <point/>
   </object>
-  <object id="59" x="1148.5" y="294">
+  <object id="59" x="1146.83" y="295.333">
    <point/>
   </object>
   <object id="60" x="1312.5" y="356">
@@ -179,7 +179,7 @@
   <object id="63" x="1744" y="669.5">
    <point/>
   </object>
-  <object id="64" x="1439" y="535.5">
+  <object id="64" x="1419" y="567.16">
    <point/>
   </object>
   <object id="65" x="1227.5" y="519.5">
@@ -224,7 +224,7 @@
   <object id="78" x="844" y="1389.33">
    <point/>
   </object>
-  <object id="79" x="852.667" y="1709.33">
+  <object id="79" x="888" y="1724.66">
    <point/>
   </object>
   <object id="80" x="588.667" y="1734">
@@ -285,8 +285,142 @@
    <point/>
   </object>
  </objectgroup>
+ <objectgroup id="17" name="redirect-link">
+  <object id="137" name="Beaver Construction HQ" x="641" y="1200">
+   <properties>
+    <property name="page" value="Beaver Construction HQ"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="138" name="S.A.W. Villas" x="811.5" y="1285.5">
+   <properties>
+    <property name="page" value="S.A.W. Villas"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="139" name="Museum of Super Natural History" x="212.5" y="1044">
+   <properties>
+    <property name="page" value="Museum of Super Natural History"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="140" name="Super Sea Land" x="1829" y="1805">
+   <properties>
+    <property name="page" value="Super Sea Land"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="141" name="Pixile Port" x="1808" y="1152">
+   <properties>
+    <property name="page" value="Pixile Port"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="142" name="S.A.W. Security HQ" x="1523" y="1205">
+   <properties>
+    <property name="page" value="S.A.W. Security HQ"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="143" name="S.A.W. Bamboo Resort" x="1146" y="1112">
+   <properties>
+    <property name="page" value="S.A.W. Bamboo Resort"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" name="S.A.W. Research Labs" x="1223" y="689">
+   <properties>
+    <property name="page" value="S.A.W. Research Labs"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="145" name="Health Juice Factory" x="1514.84" y="791.834">
+   <properties>
+    <property name="page" value="Health Juice Factory"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="146" name="Thomas's Workshop" x="1430" y="375.125">
+   <properties>
+    <property name="page" value="Thomas's Workshop"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="147" name="Super Penguin Palace" x="965.667" y="330">
+   <properties>
+    <property name="page" value="Super Penguin Palace"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="148" name="Superite Mountain" x="607.333" y="591.333">
+   <properties>
+    <property name="page" value="Superite Mountain"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="149" name="Super Pyramid" x="624.667" y="800.667">
+   <properties>
+    <property name="page" value="Super Pyramid"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="150" name="Giant Eagle Landing" x="565.625" y="1434.63">
+   <properties>
+    <property name="page" value="Giant Eagle Landing"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="151" name="Super Animal Super Stage" x="355" y="1375">
+   <properties>
+    <property name="page" value="Super Animal Super Stage"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="152" name="S.A.W. Welcome Center" x="327.5" y="1716">
+   <properties>
+    <property name="page" value="S.A.W. Welcome Center"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="153" name="Crocodile Club" x="775.5" y="1625">
+   <properties>
+    <property name="page" value="Crocodile Club"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="154" name="Super Animal Farm" x="1220" y="1448.5">
+   <properties>
+    <property name="page" value="Super Animal Farm"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="155" name="Giant Emu Ranch" x="831" y="907">
+   <properties>
+    <property name="page" value="Giant Emu Ranch"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="156" name="Mini Ranch" x="1429" y="1379.64">
+   <properties>
+    <property name="page" value="Mini Ranch"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="157" name="Hamsterball Stadium" x="723.5" y="1818">
+   <properties>
+    <property name="page" value="Hamsterball Stadium"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="158" name="Victory Island" x="986" y="1942.5">
+   <properties>
+    <property name="page" value="Victory Island"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
  <objectgroup id="4" name="rat">
-  <object id="6" name="Rat" x="637.636" y="639.432">
+  <object id="6" name="Rat" x="633.909" y="628.887">
    <point/>
   </object>
  </objectgroup>
@@ -315,16 +449,40 @@
   <object id="22" name="S.A.W. Welcome Center" x="120" y="1510" width="415" height="412"/>
   <object id="23" name="Crocodile Club" x="730" y="1586" width="91" height="78"/>
   <object id="24" name="Super Animal Farm" x="1072" y="1335" width="296" height="227"/>
-  <object id="25" name="Beaver Cosntruction HQ" x="502" y="1143" width="280" height="158"/>
   <object id="26" name="Giant Emu Ranch" x="757" y="860" width="148" height="94"/>
   <object id="27" name="Mini Ranch" x="1369.82" y="1352.55" width="118.364" height="54.1818"/>
   <object id="29" name="Hamster Ball Stadium" x="580" y="1704" width="287" height="228"/>
   <object id="31" name="Victory Island" x="1240" y="1844">
    <polygon points="0,0 -318,-1 -322,98 -513,103 -517,194 9,197"/>
   </object>
+  <object id="136" name="Museum of Super Natural History" x="135" y="998" width="155" height="92">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffffffff"/>
+   </properties>
+  </object>
+  <object id="159" name="Super Animal Super Stage" x="249" y="1275" width="210" height="200">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffffffff"/>
+   </properties>
+  </object>
+  <object id="161" name="Beaver Construction HQ" x="499.091" y="1178.18">
+   <properties>
+    <property name="color" type="color" value="#ffffffff"/>
+    <property name="thickness" type="int" value="3"/>
+   </properties>
+   <polygon points="0,0 0.181818,51.6364 43.2727,115.455 248.909,116.545 249.273,22.9091 279.818,23.0909 279.818,-7.45455 206.909,-7.45455 206.727,-72.3636 128.364,-72.5455 128.394,-32.4545 -0.030303,-32.7879"/>
+  </object>
+  <object id="162" name="S.A.W. Villas" x="765" y="1220" width="93" height="131">
+   <properties>
+    <property name="border" type="color" value="#ffffffff"/>
+    <property name="fill" type="color" value="#ffffffff"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="9" name="dogna">
-  <object id="2" name="Dogna" x="671.667" y="763.167">
+  <object id="2" name="Dogna" x="676.917" y="752.667">
    <properties>
     <property name="description" value="Dr. Dogna is inside the secret lab inside the pyramid"/>
     <property name="page" value="Dr. Dogna"/>
