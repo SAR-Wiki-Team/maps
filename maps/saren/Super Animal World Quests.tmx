@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="106" nextobjectid="293">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="106" nextobjectid="505">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
  <imagelayer id="12" name="Map_Indoors">
-  <image source="Images/Map Indoors.png" width="2048" height="2048"/>
+  <image source="Images/Map_Indoors.png" width="2048" height="2048"/>
  </imagelayer>
  <imagelayer id="3" name="Map">
   <image source="Images/Map.png" width="2048" height="2048"/>
@@ -13,7 +13,7 @@
   </properties>
  </imagelayer>
  <objectgroup id="4" name="npcs"/>
- <objectgroup id="6" name="superiteshard" visible="0">
+ <objectgroup id="6" name="superiteshard">
   <object id="17" name="Privacy" x="371.768" y="1636.11">
    <properties>
     <property name="image" value="Superite_Shard_Privacy.jpg"/>
@@ -33,7 +33,7 @@
    </properties>
    <point/>
   </object>
-  <object id="20" name="Shore West" x="171.667" y="1037.33">
+  <object id="20" name="Shore West" x="144.417" y="1027.58">
    <properties>
     <property name="description" value="On the edge of the coast in shallow water"/>
     <property name="image" value="Superite_Shard_Shore_West.jpg"/>
@@ -634,10 +634,10 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="103" name="barryessa">
-  <object id="290" name="Barryessa" x="1762.82" y="1762.73">
+ <objectgroup id="103" name="berryessa">
+  <object id="290" name="Berryessa" x="1762.82" y="1762.73">
    <properties>
-    <property name="page" value="Barryessa"/>
+    <property name="page" value="Berryessa"/>
    </properties>
    <point/>
   </object>
@@ -1331,58 +1331,58 @@
    <polyline points="0,0 -53.5,0.75"/>
   </object>
  </objectgroup>
- <objectgroup id="11" name="photobooth" visible="0">
-  <object id="133" x="355.091" y="1759.64">
+ <objectgroup id="11" name="photobooth">
+  <object id="133" x="349.743" y="1759.99">
    <point/>
   </object>
-  <object id="134" x="1190.67" y="1186">
+  <object id="134" x="1190.3" y="1192.88">
    <point/>
   </object>
-  <object id="135" x="1889.5" y="1905.75">
+  <object id="135" x="1890.88" y="1909.88">
    <point/>
   </object>
-  <object id="136" x="924" y="286">
+  <object id="136" x="930.1" y="291.8">
    <point/>
   </object>
-  <object id="137" x="1057.75" y="2006">
+  <object id="137" x="1069.5" y="2001.81">
    <point/>
   </object>
  </objectgroup>
  <objectgroup id="8" name="mtnstation">
-  <object id="60" name="End-of-the-World Station" x="1861" y="273">
+  <object id="60" name="End-of-the-World Station" x="1879" y="266">
    <point/>
   </object>
-  <object id="61" name="Mini Station" x="1393" y="1379">
+  <object id="61" name="Mini Station" x="1403" y="1376">
    <point/>
   </object>
-  <object id="62" name="Lab Lab Station" x="1173" y="618">
+  <object id="62" name="Lab Lab Station" x="1156.88" y="611.75">
    <point/>
   </object>
-  <object id="63" name="Superite Station" x="456" y="539">
+  <object id="63" name="Superite Station" x="452.875" y="551.25">
    <point/>
   </object>
-  <object id="64" name="Welcome Station" x="272" y="1668">
+  <object id="64" name="Welcome Station" x="254" y="1657">
    <point/>
   </object>
-  <object id="65" name="Victory Station" x="1067" y="1980">
+  <object id="65" name="Victory Station" x="1069.38" y="1961.25">
    <point/>
   </object>
-  <object id="66" name="Sea Land Station" x="1880" y="1911">
+  <object id="66" name="Sea Land Station" x="1876" y="1911">
    <point/>
   </object>
-  <object id="67" name="Bamboo Station" x="1180" y="1188">
+  <object id="67" name="Bamboo Station" x="1175" y="1194">
    <point/>
   </object>
-  <object id="68" name="Pixile Port Station" x="1822" y="1247">
+  <object id="68" name="Pixile Port Station" x="1825.63" y="1230.38">
    <point/>
   </object>
-  <object id="69" name="Penguin Station" x="963" y="308">
+  <object id="69" name="Penguin Station" x="967.875" y="328.75">
    <point/>
   </object>
-  <object id="70" name="Emu Station" x="796" y="909">
+  <object id="70" name="Emu Station" x="800.34" y="893.08">
    <point/>
   </object>
-  <object id="71" name="Murre Station" x="256.25" y="1066">
+  <object id="71" name="Murre Station" x="256.18" y="1067.54">
    <point/>
   </object>
  </objectgroup>
@@ -1500,10 +1500,10 @@
   <object id="173" x="90.4545" y="1261">
    <point/>
   </object>
-  <object id="174" x="140.364" y="1207.45">
+  <object id="174" x="137.489" y="1190.83">
    <point/>
   </object>
-  <object id="175" x="178.727" y="1032.91">
+  <object id="175" x="140.227" y="1037.66">
    <point/>
   </object>
   <object id="176" x="283.091" y="999.636">
@@ -1516,6 +1516,12 @@
    <point/>
   </object>
   <object id="179" x="219.25" y="806.625">
+   <point/>
+  </object>
+  <object id="293" x="129.273" y="1117.82">
+   <point/>
+  </object>
+  <object id="294" x="211.75" y="992.159">
    <point/>
   </object>
  </objectgroup>
