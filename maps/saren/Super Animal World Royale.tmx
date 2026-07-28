@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="163">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="64" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="164">
  <properties>
   <property name="include" value="Map:Common"/>
  </properties>
@@ -455,31 +455,15 @@
   <object id="31" name="Victory Island" x="1240" y="1844">
    <polygon points="0,0 -318,-1 -322,98 -513,103 -517,194 9,197"/>
   </object>
-  <object id="136" name="Museum of Super Natural History" x="135" y="998" width="155" height="92">
+  <object id="136" name="Museum of Super Natural History" x="135" y="998" width="155" height="92"/>
+  <object id="159" name="Super Animal Super Stage" x="249" y="1275" width="210" height="200"/>
+  <object id="161" name="Beaver Construction HQ" x="500" y="1145">
    <properties>
-    <property name="border" type="color" value="#ffffffff"/>
-    <property name="fill" type="color" value="#ffffffff"/>
-   </properties>
-  </object>
-  <object id="159" name="Super Animal Super Stage" x="249" y="1275" width="210" height="200">
-   <properties>
-    <property name="border" type="color" value="#ffffffff"/>
-    <property name="fill" type="color" value="#ffffffff"/>
-   </properties>
-  </object>
-  <object id="161" name="Beaver Construction HQ" x="499.091" y="1178.18">
-   <properties>
-    <property name="color" type="color" value="#ffffffff"/>
     <property name="thickness" type="int" value="3"/>
    </properties>
-   <polygon points="0,0 0.181818,51.6364 43.2727,115.455 248.909,116.545 249.273,22.9091 279.818,23.0909 279.818,-7.45455 206.909,-7.45455 206.727,-72.3636 128.364,-72.5455 128.394,-32.4545 -0.030303,-32.7879"/>
+   <polygon points="0,0 0,85 43,150 248,150 248,59 278,59 278,25 208,25 208,-40 126,-40 126,0"/>
   </object>
-  <object id="162" name="S.A.W. Villas" x="765" y="1220" width="93" height="131">
-   <properties>
-    <property name="border" type="color" value="#ffffffff"/>
-    <property name="fill" type="color" value="#ffffffff"/>
-   </properties>
-  </object>
+  <object id="162" name="S.A.W. Villas" x="765" y="1220" width="93" height="131"/>
  </objectgroup>
  <objectgroup id="9" name="dogna">
   <object id="2" name="Dogna" x="676.917" y="752.667">
